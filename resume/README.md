@@ -1,3 +1,7 @@
+![Foto](http://imgur.com/hTDxATX)
+
+---
+
 **Personalia**
 ===
 	*	Simon Decloedt
