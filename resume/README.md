@@ -1,4 +1,4 @@
-![Foto](http://imgur.com/hTDxATX)
+![Foto](http://imgur.com/hTDxATX.jpg)
 
 ---
 
