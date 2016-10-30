@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="http://i.imgur.com/wR1rX78.png"><h1 style="color:black">Gentse Feesten 2016</h1></section>
+				<section data-background-image="http://i.imgur.com/wR1rX78.png"><h2 style="color:black;">Datasets</h2><p>http://data.gent.be/datasets/gentse-feesten-events
+http://data.gent.be/datasets/gentse-feesten-data
+http://data.gent.be/datasets/gentse-feesten-categorieën
+http://data.gent.be/datasets/gentse-feesten-locaties
+https://data.stad.gent/datasets/bezetting-parkings-real-time
+https://data.stad.gent/datasets/parkinglocaties</p></section>
+                <section data-background-image="http://i.imgur.com/wR1rX78.png"><img  data-src="http://i.imgur.com/GYyLvIX.png" alt="Sitemap"></section>
+                <section data-background-image="http://i.imgur.com/wR1rX78.png"><img data-src="http://i.imgur.com/tOpzabR.png" alt="Wireframes_mobile"></section>
+                <section data-background-image="http://i.imgur.com/wR1rX78.png"><img data-src="http://i.imgur.com/wTSM5Hm.png" alt="Wireframes_web"></section><section data-background-image="http://i.imgur.com/wR1rX78.png"><img data-src="http://i.imgur.com/BWjADTM.png" alt="Wireframes_web"></section><section data-background-image="http://i.imgur.com/wR1rX78.png"><img data-src="http://i.imgur.com/aHTRudd.png" alt="Wireframes_web"></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
